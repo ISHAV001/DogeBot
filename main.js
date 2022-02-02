@@ -95,7 +95,7 @@ console.log(color(`${spc4}< ================================================== >
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Hi        : ${ucapanWaktu}`, 'white'))
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Bot Version : 2.1.2`, 'white'))
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Status      : Online!`, 'white'))
-console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner       : ${fakeyoi}`, 'red))
+console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner       : ${Ishav}`, 'red))
 console.log(color(`${spc4}< ================================================== >`, 'cyan'))
 
     console.log(color('⎇','red'), color('𝙄 𝙬𝙧𝙤𝙩𝙚 𝙩𝙝𝙞𝙨 𝙨𝙘𝙧𝙞𝙥𝙩 𝙢𝙮𝙨𝙚𝙡𝙛!\n𝙉𝙤𝙩𝙚: 𝘿𝙤𝙣𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 HACKERS COLONY OFFICIAL', 'yellow'))
