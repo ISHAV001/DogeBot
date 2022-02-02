@@ -78,7 +78,7 @@ const { herolist } = require('./lib/herolist.js')
 const { fetchJson, getBase64, kyun, createExif } = require("./lib/fetcher");
 const { yta, ytv, igdl, upload, formatDate } = require("./lib/ytdl");
 const { webp2mp4File } = require("./lib/webp2mp4");
-const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time = moment().tz("Asia/Calcutta").format("HH:mm:ss");
 const afk = JSON.parse(fs.readFileSync("./lib/off.json"));
 const { sleep, isAfk, cekafk, addafk } = require("./lib/offline");
 const { cmdadd } = require("./lib/totalcmd.js");
@@ -103,7 +103,7 @@ const asw1 = 'https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg'
 const sip = fs.readFileSync('./stik/oksip.jpeg')
 const bgg = fs.readFileSync('./stik/fake.jpeg')
 //// Image ///
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time2 = moment().tz("Asia/, Calcutta").format("HH:mm:ss");
     if (time2 < "24:59:00") {
       var ucapanWaktu = "Good night";
     }
@@ -151,7 +151,7 @@ dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
 nomorowner1 = "@916909137213"; 
-fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+fake = `𝗢𝘄𝗻𝗲𝗿 : ${Ishav}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
@@ -349,9 +349,9 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`917649978114@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
-    const m = simple.smsg(xeon, mek);
+    const m = simple.smsg(Ishav, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
     const groupId = isGroup ? groupMetadata.jid : "";
@@ -393,7 +393,7 @@ var hayuk0 = '[NOT VERIFIED]'
 			hayuk0 = '[√ VERIFIED]'
 			}
     //Y
-const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
+const timeWib = moment.tz('Asia/Calcutta').format('DD/MM HH:mm:ss')
 		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
         const timeWit = moment().tz('Asia/Jayapura').format('DD/MM HH:mm:ss')
     const time = moment.tz("Asia/Jakarta").format("DD/MM HH:mm:ss");
@@ -472,7 +472,7 @@ const math = (teks) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "6289523258649-1604595598@g.us",
+        remoteJid: "12344020029@g.us",
       },
       message: {
         orderMessage: {
@@ -488,7 +488,7 @@ const math = (teks) => {
       contextInfo: { forwardingScore: 999, isForwarded: true },
       sendEphemeral: true,
     };
-const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${senderr.split('@')[0]}:${senderr.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./xeon.jpg')
+const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '+1 (234) 402-0029@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${senderr.split('@')[0]}:${senderr.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./xeon.jpg')
         }}}
 const freply7 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '1595603042@s.whatsapp.net' } : {}) }, message: { "productMessage":{"product": {"productImage": {"mimetype":'image/jpeg',"jpegThumbnail": iye, "title": `${ucapanWaktu} ${pushname}`, "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
 }
@@ -566,7 +566,7 @@ const finv = {
     const fgif = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
+        ...(from ? { remoteJid: "1613049930@g.us" } : {}),
       },
       message: {
         videoMessage: {
@@ -582,7 +582,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "6289643739077-1613049930@g.us",
+      "remoteJid": "1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
