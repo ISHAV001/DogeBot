@@ -82,7 +82,7 @@ const starts = async (client = new WAConnection()) => {
     start("2", "Connecting...");
   });
   client.on("open", () => {
-    success("2", "Successfully connected to wa, Subscribe Xeon");
+    success("2", "Successfully connected to wa, Subscribe HACKERS COLONY OFFICIAL");
 console.log(color(figlet.textSync(`${spc1}            Doge Bot`, {
 font: 'Standard',
 horizontalLayout: 'default',
